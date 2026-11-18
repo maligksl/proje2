@@ -32,7 +32,7 @@ script.js        Mobil menü, arama ve görsel yedek davranışları
 README.md        Proje ve çalışma talimatları
 AI_NOTLARI.md    Yapay zekâ kullanım kayıtları
 TEST_NOTLARI.md  Manuel test kayıtları
-screenshots/     Teslimde eklenmesi beklenen ekran görüntüleri
+screenshots/     Ana sayfa, içerikler ve hakkında sayfalarına ait ekran görüntüleri
 ```
 
 ## Çalıştırma
@@ -44,15 +44,12 @@ screenshots/     Teslimde eklenmesi beklenen ekran görüntüleri
 İnternet bağlantısı olmadığında harici fotoğraflar ve Google Fonts yüklenmeyebilir; tasarımın yedek renk alanları korunur.
 
 ## Ekran görüntüleri
-Gerçek ekran görüntüleri henüz eklenmemiştir. Teslimden önce aşağıdaki dosyalar eklenmelidir:
 
 ```text
-screenshots/ana-sayfa.png
-screenshots/icerikler-arama.png
-screenshots/hakkinda-proje-amaci.png
+screenshots/anasayfa.png
+screenshots/icerikler.png
+screenshots/hakkinda.png
 ```
-
-Bu alanlara sahte veya örnek dışı görüntü eklenmemelidir.
 
 ## GitHub repository bağlantısı
 https://github.com/maligksl/proje2
