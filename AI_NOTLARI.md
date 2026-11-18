@@ -30,7 +30,7 @@ Bu belge, bu oturumda elde edilen gerçek Copilot/Copilot SDK işlemlerini ve ö
 **Kullanılan araç:** Copilot SDK / VS Code
 **Gerçek öneri:** Mevcut mimariyi koruyan HTML/CSS/JavaScript düzenlemeleri, Hakkında sayfasında yalnızca proje açıklamasını tutan sade yapı ve gerçek test sonuçlarının ayrı tutulması.
 
-**Değerlendirme:** Kapsamlı düzenlemeler mevcut dosya yapısını bozmadan uygulandı. Gerçek tarayıcı testleri henüz yapılmadığı için test notları başarılı olarak işaretlenmedi.
+**Değerlendirme:** Kapsamlı düzenlemeler mevcut dosya yapısını bozmadan uygulandı. Gerçek tarayıcı testleri henüz yapılmadığı için test notları başarılı olarak işaretlenmedi. Arama normalizasyonuna büyük/küçük harf yanında Türkçe I/İ farkını da kapsayan düzenleme eklenmesi kabul edildi.
 
 ## Kod açıklamaları
 

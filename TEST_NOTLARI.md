@@ -23,6 +23,7 @@
 
 ## Otomatik kod kontrolleri
 JavaScript sözdizimi ve sayfa yerel bağlantıları bu oturumda otomatik olarak kontrol edildi. Bu kontroller gerçek arama davranışını veya 390 px görsel düzenini manuel tarayıcıda doğrulamaz.
+Node üzerinde mock DOM kullanılarak kısmi başlık araması, Türkçe I/İ eşleşmesi, sıfır sonuç, yalnızca boşluk ve temizleme düğmesi senaryoları çalıştırıldı; bu senaryolar başarılı oldu.
 
 ## Genel sonuç
 Geçen test sayısı: 0 / 6

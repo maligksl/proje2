@@ -36,15 +36,20 @@ const emptyMessage = document.querySelector("#empty-message");
 const contentCards = document.querySelectorAll(".destination-card");
 
 if (searchInput && clearButton && resultCount && emptyMessage && contentCards.length > 0) {
+  const normalizeSearchText = (text) => text
+    .trim()
+    .toLocaleLowerCase("tr-TR")
+    .replace(/[İIı]/g, "i");
+
   const filterCards = () => {
-    // trim() baştaki/sondaki boşlukları kaldırır; toLocaleLowerCase() harf duyarsız arama sağlar.
-    const searchTerm = searchInput.value.trim().toLocaleLowerCase("tr-TR");
+    // trim() boşlukları kaldırır, I/İ farkını da dikkate alan normalizasyon harf duyarsızlığı sağlar.
+    const searchTerm = normalizeSearchText(searchInput.value);
     let visibleCount = 0;
 
     contentCards.forEach((card) => {
       const heading = card.querySelector("h2");
       if (!heading) return;
-      const title = heading.textContent.trim().toLocaleLowerCase("tr-TR");
+      const title = normalizeSearchText(heading.textContent);
       const matches = title.includes(searchTerm);
       card.hidden = !matches;
       if (matches) visibleCount += 1;
