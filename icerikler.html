@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Zeya Travel Guide ülke ve destinasyon içerikleri.">
+  <title>Zeya Travel Guide | İçerikler</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Ana menü">
+      <a class="brand" href="index.html"><span class="brand-mark">Z</span><span>ZEYA<span class="brand-light"> TRAVEL GUIDE</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Menüyü aç veya kapat">☰</button>
+      <div class="nav-links" id="site-menu">
+        <a href="index.html">Ana Sayfa</a>
+        <a class="active" href="icerikler.html" aria-current="page">İçerikler</a>
+        <a href="hakkinda.html">Hakkında</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-heading">
+      <div class="container">
+        <p class="eyebrow eyebrow-dark">DÜNYAYI YAKINDAN TANI</p>
+        <h1>Keşfedilecek <em>yerler.</em></h1>
+        <p>Farklı ülkelerden seçtiğimiz kısa gezi notlarını incele. Arama alanına bir içerik başlığı yazarak ilgilendiğin destinasyonu bulabilirsin.</p>
+      </div>
+    </section>
+
+    <section class="container content-section">
+      <div class="search-panel">
+        <div class="search-field">
+          <label for="title-search">İçerik başlığına göre ara</label>
+          <div class="input-wrap">
+            <span aria-hidden="true">⌕</span>
+            <input id="title-search" type="search" placeholder="Örn. Japonya..." autocomplete="off">
+            <button id="clear-search" class="clear-button" type="button">Temizle</button>
+          </div>
+        </div>
+        <p id="result-count" class="result-count" aria-live="polite">6 içerik gösteriliyor</p>
+      </div>
+
+      <div class="cards-grid" id="content-list">
+        <article class="destination-card" id="japonya">
+          <div class="card-image image-japan"><img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80" alt="Japonya'da geleneksel tapınak ve Fuji Dağı manzarası" loading="lazy"><span>ASYA</span></div>
+          <div class="card-body"><p class="card-meta">01 / KÜLTÜR & DOĞA</p><h2>Japonya Gezi Rehberi</h2><p>Geleneksel tapınaklardan hareketli Tokyo sokaklarına uzanan bir keşif.</p><a href="#japonya" class="card-link" aria-label="Japonya kartını seç">Kartı seç <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="destination-card" id="italya">
+          <div class="card-image image-italy"><img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=800&q=80" alt="İtalya'da renkli sahil kasabası ve deniz manzarası" loading="lazy"><span>AVRUPA</span></div>
+          <div class="card-body"><p class="card-meta">02 / TARİH & LEZZET</p><h2>İtalya Gezi Rehberi</h2><p>Roma'nın tarihî meydanları, sanat şehirleri ve Akdeniz kıyıları.</p><a href="#italya" class="card-link" aria-label="İtalya kartını seç">Kartı seç <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="destination-card" id="kanada">
+          <div class="card-image image-canada"><img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80" alt="Kanada'da göl, orman ve dağ manzarası" loading="lazy"><span>KUZEY AMERİKA</span></div>
+          <div class="card-body"><p class="card-meta">03 / DOĞA & MACERA</p><h2>Kanada Gezi Rehberi</h2><p>Geniş millî parklar, göller ve şehir yaşamını buluşturan rotalar.</p><a href="#kanada" class="card-link" aria-label="Kanada kartını seç">Kartı seç <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="destination-card" id="ingiltere">
+          <div class="card-image image-uk"><img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=800&q=80" alt="Londra'da Big Ben ve Westminster Köprüsü" loading="lazy"><span>AVRUPA</span></div>
+          <div class="card-body"><p class="card-meta">04 / ŞEHİR & SANAT</p><h2>İngiltere Gezi Rehberi</h2><p>Londra'nın simge yapıları, müzeleri ve tarihî kasabaları.</p><a href="#ingiltere" class="card-link" aria-label="İngiltere kartını seç">Kartı seç <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="destination-card" id="misir">
+          <div class="card-image image-egypt"><img src="https://images.unsplash.com/photo-1568322445389-f64ac2515020?auto=format&fit=crop&w=800&q=80" alt="Mısır'da Gize piramitleri ve çöl manzarası" loading="lazy"><span>AFRİKA</span></div>
+          <div class="card-body"><p class="card-meta">05 / TARİH & MİRAS</p><h2>Mısır Gezi Rehberi</h2><p>Antik uygarlıkların izinde piramitler ve Nil Nehri çevresi.</p><a href="#misir" class="card-link" aria-label="Mısır kartını seç">Kartı seç <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="destination-card" id="ispanya">
+          <div class="card-image image-spain"><img src="https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=800&q=80" alt="İspanya'da Barcelona'da mimari eser ve şehir manzarası" loading="lazy"><span>AVRUPA</span></div>
+          <div class="card-body"><p class="card-meta">06 / MİMARİ & YAŞAM</p><h2>İspanya Gezi Rehberi</h2><p>Barselona'nın mimarisi, Endülüs mirası ve canlı şehir kültürü.</p><a href="#ispanya" class="card-link" aria-label="İspanya kartını seç">Kartı seç <span aria-hidden="true">↗</span></a></div>
+        </article>
+      </div>
+      <p id="empty-message" class="empty-message" role="status" aria-live="polite" aria-atomic="true" hidden>Aradığın başlıkla eşleşen bir içerik bulunamadı. Farklı bir kelime deneyebilirsin.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><a class="brand brand-footer" href="index.html"><span class="brand-mark">Z</span><span>ZEYA<span class="brand-light"> TRAVEL GUIDE</span></span></a><p>© 2026 Zeya Travel Guide · Eğitim projesi</p></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
